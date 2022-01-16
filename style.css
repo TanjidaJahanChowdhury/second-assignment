@@ -34,4 +34,19 @@ body{
     width:440;
     height:414;
     padding-right:20%;
+    transition-duration:3s;
+    rotate: 30deg;
+}
+    
+    
+.sec-heading{
+    text-align: center;
+    padding-bottom:5%;
+}
+.collection-items{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    padding-left: 10%;
+    align-items: center;
+    
 }
