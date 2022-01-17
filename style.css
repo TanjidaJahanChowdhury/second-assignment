@@ -63,3 +63,14 @@ body{
 .last-sec{
     padding-top:5%;
 }
+.foot-header{
+    padding-top:2%;
+}
+.footer-design{
+    text-align: center;
+    background-color:rgb(40, 40, 46);
+    color:white;
+}
+.footer-para{
+    font-size:10px;
+}
