@@ -25,17 +25,18 @@ body{
 .link-button{
     text-decoration: none;
     padding: 10px 40px;
-    background-color:crimson;
+    background-color:#E92F72;
     border-radius: 40%;
     color: white;
     
 }
-.img-edit{
+.img-edit:hover{
     width:440;
     height:414;
     padding-right:20%;
-    transition-duration:3s;
-    rotate: 30deg;
+    transform: rotate(45deg);
+    transition-duration: 3s;
+    
 }
     
     
@@ -50,10 +51,16 @@ body{
     align-items: center;
     
 }
+.fa-star{
+    color:#FFC014 ;
+}
+.fa-star-half-alt{
+    color: #FFC014;
+}
 .see-button{
     text-decoration: none;
     text-align-last: right;
-    color: crimson;
+    color:#E92F72;
     padding-top: 4%;
     padding-left: 84%;
 }
